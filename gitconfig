@@ -1,1 +1,11 @@
-../.gitconfig
+# Comment
+#
+[user]
+    name = Tomohisa Hirota
+    email = hirota.tomohisa@gmail.com
+[alias]
+    ci = commit
+    co = checkout
+    st = status -sb
+[core]
+	editor = vim

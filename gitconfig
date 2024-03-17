@@ -7,5 +7,9 @@
     ci = commit
     co = checkout
     st = status -sb
+    sw = switch
+    lo = log --oneline
+    df = diff
+    dc = diff --cached
 [core]
 	editor = vim

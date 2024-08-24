@@ -6,10 +6,13 @@
 [alias]
     ci = commit
     co = checkout
-    st = status -sb
+#    st = status -sb
+    st = status
     sw = switch
     lo = log --oneline
     df = diff
     dc = diff --cached
 [core]
 	editor = vim
+[init]
+	defaultBranch = main

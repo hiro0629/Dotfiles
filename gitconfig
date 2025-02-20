@@ -6,12 +6,14 @@
 [alias]
     ci = commit
     co = checkout
-#    st = status -sb
+    st = status -sb
     st = status
     sw = switch
     lo = log --oneline
     df = diff
     dc = diff --cached
+    lg = log --oneline --graph --decorate --all                                               │
+    lgt = log --pretty=format:'%h - %an, %ar : %s'
 [core]
 	editor = vim
 [init]
